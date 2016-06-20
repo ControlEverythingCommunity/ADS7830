@@ -43,6 +43,6 @@ void loop()
 
   // Output data to dashboard
   Particle.publish("Digital value of analog input  : ", String(data));
-  delay(500);
+  delay(1000);
 }
 
