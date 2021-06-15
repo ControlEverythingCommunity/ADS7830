@@ -15,8 +15,8 @@ public class ADS7830
 	{
 		// Create I2C bus
 		I2CBus Bus = I2CFactory.getInstance(I2CBus.BUS_1);
-		// Get I2C device, ADS7830 I2C address is 0x48(72)
-		I2CDevice device = Bus.getDevice(0x48);
+		// Get I2C device, ADS7830 I2C address is 0x4B(75)
+		I2CDevice device = Bus.getDevice(0x4B);
 
 		// Differential inputs, Channel-0, Channel-1 selected
 		device.write((byte)0x04);
